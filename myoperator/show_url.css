@@ -1,0 +1,255 @@
+body {
+  width: 402px;
+  height: 100%;
+  margin: 0;
+  /*font:12px/15px Arial, Helvetica, sans-serif;*/
+  font: 12px/15px 'Open Sans', Arial, sans-serif;
+  background: #fff;
+  color:#292929;
+  /* border: 1px solid #292929; */
+  /* border-ralistus: 14px; */
+  position: relative;
+  padding-bottom: 1px;
+}
+
+img {
+    border-style:none;
+}
+
+a.b-login {
+    color:#007eff;
+    outline:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+
+input, textarea, select {
+    font:100% arial,sans-serif;
+    vertical-align:middle;
+    outline:none;
+    width: 315px;
+    margin: 1px 0px;
+    height: 36px;
+    border-radius: 5px;
+    padding: 1px 10px;
+    font-size: 15px;
+    color: #9b9c9e;
+    outline: none;
+    /* border: 1px inset; */
+    background: #f5f5f5;
+    border: 1px #7b7c80 solid;
+}
+
+
+button, .button {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0;
+  /* border-bottom: 2px solid #4a6e00; */
+  border-radius: 5px;
+  position:relative;
+  background-color: white;
+  color: black;
+  text-align:center;
+  text-decoration:none;
+  font-family: inherit;
+  margin:0 px auto;
+  float: left;
+  cursor: pointer;
+  border: 2px solid #27bdcb;
+  
+}
+
+button:hover{
+  background-color: #27bdcb;
+  color: white;
+}
+
+.heading{
+  padding: 10px 15px 5px 9px;
+  overflow:hidden;
+  background:#ededed;
+  border-radius: 10px 10px 0 0;
+  position:relative;
+}
+
+
+.content-inner {
+  padding: 38px 12px 2px;
+  min-height: 140px;
+  font-size: 14px;
+  border-box: inherit;
+  height: 318px;
+  font-size: 11px;
+
+}
+
+
+input:invalid {
+  border: 1px solid #900;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+*/
+
+input.invalid {
+  border: 1px solid #900;
+}
+
+input.invalid:focus {
+  outline: none;
+}
+
+/* Header */
+
+.b-ext-logo{
+    height: 46px;
+    align-items: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.b-ext-header{
+    height: 56px;
+    padding: 0 5px;
+    background: #27bdcb;
+    color: #fff;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b-account--goback {
+  position:relative;
+  /* width: 85px; */
+  color:#D6B200;
+}
+
+.b-account--goback:hover {
+  color:white;
+}
+
+/*
+.b-account--goback::before {
+  content: "";
+  height: 13px;*
+  left: 14px;*
+  position: absolute;*
+  top: 8px;
+  width: 13px;
+  background: url("../images/icon-back.png") no-repeat scroll;
+  background-position: 0px 0;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+}
+*/
+.b-account--goback:hover::before {
+  
+}
+
+.b-account--goback a{
+  font-size:18px;
+  text-decoration: underline;
+  margin-left: 3px;
+  color: #e6e6e6;
+  margin-right: 6px;
+}
+.home-button:hover{
+  color:white;
+}
+
+
+
+.content-inner h1 {
+  margin:0 auto;
+  display: inherit;
+  /* font-family: 'open sans'; */
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 4px #3d973f solid;
+  padding-bottom: 20px;
+  font-family:"Lucida Sans Unicode";
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
+.logged-in h3{
+ float: right;
+ padding-right:0px; 
+ width: 150px;
+ text-align: center;
+ line-height: 18px;
+ margin-top: 10px;
+}
+
+
+.b-account--reg {
+  display:block;
+  margin-top: 7px;
+  font-size: 12px;
+  /* letter-spacing: 0.3px; */
+}
+
+.item{
+  width: auto;
+  padding: 5px;  
+  border-bottom: 1.5px solid black;
+  margin: 10px;
+}
+
+.left{
+  float: left;
+  text-align: center;
+  width: 65%;
+  font-size: 15px;
+
+}
+
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+button.edit{
+  margin-right: 5px;
+}
+
+.list{
+  border-top: 1px solid #8E8E8E;
+  border-left: 1px solid #8E8E8E; 
+  border-right: 1px solid #8E8E8E;
+  background-color: #E8E8E8;
+}
+span{
+   font-weight: bold;
+  font-size: 20px;
+  font-color: black;
+  line-height: 200%;
+  font-family: Lucida Sans Unicode;
+}
+.name{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.empty{
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+  font-size: 15px;
+
+}

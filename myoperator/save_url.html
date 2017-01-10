@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="save_url.css" media="all">
+    <script src="encrypt.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src= "jqueryfiles/dist/jquery.validate.min.js"></script>
+    <script src="/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+    <script type="text/javascript" src="save_url.js"></script>
+
+
+  </head>
+  <body class="crl-url">
+
+    <div id="main!" class="b-ext-wrapper m-scene">
+    <header class="b-ext-header">
+      <div class="b-ext-logo">
+        <img src="logo.png"  height="55" align="middle"/>
+      </div>
+      <div class = "header-name">
+      <h3>MYOPERATOR</h3>
+      </div>
+      <div class="b-account">
+        
+        <div class="b-account--goback">
+          <a href="popup.html" class="home-button"><i class="fa fa-home"></i>Home</a>
+        </div>
+      </div>
+    </header>
+      <div class = logged-in>
+      </div>
+    <form id="url-form" name ="store-url">
+    <div class="content-inner">
+      <h1 id = "head"><i class="fa fa-pencil-square-o " aria-hidden="true"></i>Enter CRM URL</h1>
+      <div class="save-url" id = "repeat">
+          Name or URL already exists
+        </div>
+
+        <div class="save-url" id = "saved">
+          Successfully Saved
+        </div>
+
+        <div class="row-data">
+          <input type="text" size="30" name="name" id="name" autofocus placeholder="Name" minlength="2" required>
+        </div>
+        <div class="row-data">
+          <input type="url" size="30" name="url" id="url" placeholder="CRM URL"  required>
+        </div>
+        <div>Please do specify placehoder in your url as <br> http://www.xyz.com/{number} </div>
+        <div class="row-data">
+          <button id="submit" class="button medium">Save URL</button>
+        </div>
+      
+    </div>
+    </form>
+
+    </div>
+  </body>
+</html>
